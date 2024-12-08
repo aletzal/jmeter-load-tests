@@ -1,0 +1,17 @@
+# Ignore everything
+/*
+
+# Only neccessary files
+!python/
+python/*
+!/python/*/
+/python/*/*
+!python/install_package.sh
+!python/pip-install-testplan.jmx
+!python/pip-testplan.properties
+!python/requirements.txt
+!python/run.properties
+!python/upload/localhost.crt
+!python/upload/upload_to_custom_repo.sh
+!.gitignore
+!README.md
