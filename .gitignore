@@ -2,10 +2,8 @@
 /*
 
 # Only neccessary files
-!python/
-python/*
-!/python/*/
-/python/*/*
+!/python/
+!/python/**/*/
 !python/install_package.sh
 !python/pip-install-testplan.jmx
 !python/pip-testplan.properties
