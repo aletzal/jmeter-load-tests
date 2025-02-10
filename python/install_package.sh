@@ -13,8 +13,8 @@ echo "Recreate target folder"
 rm -rf ${TARGET_DIR}
 mkdir -p ${TARGET_DIR}
 
-echo "Install packages by requirements.txt from the kodera repository"
-pip install -r requirements.txt --disable-pip-version-check --index-url https://${USERNAME}:${PASSWORD}@${REPO_URL}/simple ${PACKAGE_NAME} --trusted-host localhost --no-cache-dir --target ${TARGET_DIR}
+echo "Install packages by test-requirements.txt from the kodera repository"
+pip install -r test-requirements.txt --disable-pip-version-check --index-url https://${USERNAME}:${PASSWORD}@${REPO_URL}/simple --cert upload/localhost.crt --no-cache-dir --target ${TARGET_DIR}
 
 echo "Kodera - successfully installed packages"
 
