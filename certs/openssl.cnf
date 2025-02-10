@@ -1,0 +1,24 @@
+[ req ]
+default_bits        = 2048
+prompt              = no
+default_md          = sha256
+distinguished_name  = req_distinguished_name
+req_extensions      = v3_req
+
+[ req_distinguished_name ]
+C  = US
+ST = CA
+L  = Kodera
+O  = Kodera Org
+OU = Kodera Dev
+CN = kodera.perf
+
+[ v3_req ]
+keyUsage            = keyEncipherment, dataEncipherment, digitalSignature
+extendedKeyUsage    = serverAuth
+subjectAltName      = @alt_names
+
+[ alt_names ]
+DNS.1 = kodera.perf
+DNS.2 = www.kodera.perf
+DNS.3 = 127.0.0.1

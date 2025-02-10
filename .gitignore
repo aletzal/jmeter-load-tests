@@ -2,14 +2,24 @@
 /*
 
 # Only neccessary files
+!/certs/
+!/certs/**/*/
+
+# python repo
 !/python/
 !/python/**/*/
 !python/install_package.sh
 !python/pip-install-testplan.jmx
 !python/pip-testplan.properties
-!python/requirements.txt
-!python/run.properties
-!python/upload/localhost.crt
+!python/test-requirements.txt
 !python/upload/upload_to_custom_repo.sh
+!certs/kodera-perf.crt
+
+# project files
+!.env.example
 !.gitignore
+!.python-version
+!kodera.py
+!main.py
 !README.md
+!requirements.txt

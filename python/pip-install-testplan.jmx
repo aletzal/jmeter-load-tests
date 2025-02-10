@@ -13,7 +13,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="repo_url" elementType="Argument">
             <stringProp name="Argument.name">repo_url</stringProp>
-            <stringProp name="Argument.value">localhost/api/python/py-1</stringProp>
+            <stringProp name="Argument.value">https://localhost/api/python/test-repo-python</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="username" elementType="Argument">
@@ -80,7 +80,7 @@
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -162,7 +162,7 @@
           </elementProp>
         </SystemSampler>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="PIP Install Assertion" enabled="true">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="PIP Install Assertion">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="-726699315">Kodera - successfully installed packages</stringProp>
             </collectionProp>
@@ -210,7 +210,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
