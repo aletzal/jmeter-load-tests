@@ -15,6 +15,10 @@
 !python/upload/upload_to_custom_repo.sh
 !certs/kodera-perf.crt
 
+# golang repo
+!/golang/
+!/golang/**/*/
+
 # project files
 !.env.example
 !.gitignore

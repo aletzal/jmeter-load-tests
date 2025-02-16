@@ -37,7 +37,7 @@ def main():
         repo_name, repo_type = next(iter(repo.items()))
         kodera.create_repo_if_not_exists(repo_name, repo_type)
 
-    execute_shell_command(f'python/upload/upload_to_custom_repo.sh {api_url}/api/python/test-repo-python {username} {password}')
+    # execute_shell_command(f'python/upload/upload_to_custom_repo.sh {api_url}/api/python/test-repo-python {username} {password}')
 
 if __name__ == '__main__':
     main()

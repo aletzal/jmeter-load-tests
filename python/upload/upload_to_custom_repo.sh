@@ -24,7 +24,7 @@ username = ${REPO_USERNAME}
 password = ${REPO_PASSWORD}
 EOF
 
-DOWNLOAD_DIR="dist"
+DOWNLOAD_DIR="python-dist"
 echo "Recreate downloaded packages folder"
 rm -rf ${DOWNLOAD_DIR}
 mkdir -p ${DOWNLOAD_DIR}
